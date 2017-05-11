@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/txt_main_ring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ring (int)"
+        android:inputType="number"
+        android:nextFocusDown="@+id/txt_main_green"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/txt_main_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="green (int)"
+        android:inputType="number"
+        android:nextFocusDown="@+id/txt_main_total"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/txt_main_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="total (int)"
+        android:inputType="number"
+        android:nextFocusDown="@+id/btn_main_next"
+        android:textColor="#000000" />
+
+
+    <Button
+        android:id="@+id/btn_main_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next to Second Activity" />
+
+
+</LinearLayout>
